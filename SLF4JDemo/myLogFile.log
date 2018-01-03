@@ -1,0 +1,42 @@
+2018-01-02 15:13:14,722 [main] DEBUG  sapient - HashMap initialized with 3 account instances
+2018-01-02 15:13:14,725 [main] DEBUG  sapient - injecting dao
+2018-01-02 15:13:14,725 [main] INFO   sapient - service instance is           
+2018-01-02 15:13:14,726 [main] DEBUG  sapient - service instance created
+2018-01-02 15:13:14,726 [main] INFO   sapient - transfer the amount Rs.5000 from Acc10001 to Acc1002
+2018-01-02 15:13:14,726 [main] DEBUG  sapient - checking the eid against map key 
+2018-01-02 15:13:14,726 [main] INFO   sapient - account ID 1001 found
+2018-01-02 15:13:14,727 [main] DEBUG  sapient - From account retrieved
+2018-01-02 15:13:14,727 [main] DEBUG  sapient - checking the eid against map key 
+2018-01-02 15:13:14,728 [main] INFO   sapient - 
+2018-01-02 15:13:37,368 [main] INFO   sapient - service instance is           
+2018-01-02 15:13:37,371 [main] INFO   sapient - transfer the amount Rs.5000 from Acc10001 to Acc1002
+2018-01-02 15:13:37,371 [main] INFO   sapient - account ID 1001 found
+2018-01-02 15:13:37,372 [main] INFO   sapient - 
+2018-01-02 15:14:25,770 [main] INFO   sapient - service instance is           
+2018-01-02 15:14:25,772 [main] INFO   sapient - transfer the amount Rs.5000 from Acc10001 to Acc1002
+2018-01-02 15:14:25,773 [main] INFO   sapient - account ID 1001 found
+2018-01-02 15:14:25,775 [main] ERROR  sapient - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:24)
+2018-01-02 15:16:18,448 [main] INFO   sapient - service instance is           
+2018-01-02 15:16:18,451 [main] INFO   sapient - transfer the amount Rs.5000 from Acc1001 to Acc1002
+2018-01-02 15:16:18,452 [main] INFO   sapient - account ID 1001 found
+2018-01-02 15:16:18,454 [main] ERROR  sapient - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:24)
+2018-01-02 15:16:18,455 [main] INFO   sapient - transfer the amount Rs.500 from Acc1003 to Acc1002
+2018-01-02 15:16:18,455 [main] ERROR  sapient - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:32)
+2018-01-02 15:16:18,455 [main] INFO   sapient - transfer the amount Rs.500 from Acc2003 to Acc1002
+2018-01-02 15:16:18,455 [main] ERROR  sapient - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:40)

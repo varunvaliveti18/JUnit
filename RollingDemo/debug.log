@@ -1,0 +1,180 @@
+2018-01-03 09:43:41 DEBUG - checking the eid against map key 
+2018-01-03 09:43:42 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:24)
+2018-01-03 09:43:42 INFO - transfer the amount Rs.500 from Acc1003 to Acc1002
+2018-01-03 09:43:42 TRACE - transferfund() invoked in service
+2018-01-03 09:43:42 TRACE - getAccount() method invoked
+2018-01-03 09:43:42 DEBUG - checking the eid against map key 
+2018-01-03 09:43:42 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:32)
+2018-01-03 09:43:42 INFO - transfer the amount Rs.500 from Acc2003 to Acc1002
+2018-01-03 09:43:42 TRACE - transferfund() invoked in service
+2018-01-03 09:43:42 TRACE - getAccount() method invoked
+2018-01-03 09:43:42 DEBUG - checking the eid against map key 
+2018-01-03 09:43:42 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:40)
+2018-01-03 09:43:54 TRACE - main thread starts
+2018-01-03 09:43:54 TRACE - service constructor invoked
+2018-01-03 09:43:54 TRACE - static block called in dao
+2018-01-03 09:43:54 DEBUG - HashMap initialized with 3 account instances
+2018-01-03 09:43:54 TRACE - setter setDao() invoked
+2018-01-03 09:43:54 DEBUG - injecting dao
+2018-01-03 09:43:54 INFO - service instance is           
+2018-01-03 09:43:54 DEBUG - service instance created
+2018-01-03 09:43:54 INFO - transfer the amount Rs.5000 from Acc1001 to Acc1002
+2018-01-03 09:43:54 TRACE - transferfund() invoked in service
+2018-01-03 09:43:54 TRACE - getAccount() method invoked
+2018-01-03 09:43:54 DEBUG - checking the eid against map key 
+2018-01-03 09:43:54 INFO - account ID 1001 found
+2018-01-03 09:43:54 DEBUG - From account retrieved
+2018-01-03 09:43:54 TRACE - getAccount() method invoked
+2018-01-03 09:43:54 DEBUG - checking the eid against map key 
+2018-01-03 09:43:54 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:24)
+2018-01-03 09:43:54 INFO - transfer the amount Rs.500 from Acc1003 to Acc1002
+2018-01-03 09:43:54 TRACE - transferfund() invoked in service
+2018-01-03 09:43:54 TRACE - getAccount() method invoked
+2018-01-03 09:43:54 DEBUG - checking the eid against map key 
+2018-01-03 09:43:54 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:32)
+2018-01-03 09:43:54 INFO - transfer the amount Rs.500 from Acc2003 to Acc1002
+2018-01-03 09:43:54 TRACE - transferfund() invoked in service
+2018-01-03 09:43:54 TRACE - getAccount() method invoked
+2018-01-03 09:43:54 DEBUG - checking the eid against map key 
+2018-01-03 09:43:54 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:40)
+2018-01-03 09:44:05 TRACE - main thread starts
+2018-01-03 09:44:05 TRACE - service constructor invoked
+2018-01-03 09:44:05 TRACE - static block called in dao
+2018-01-03 09:44:05 DEBUG - HashMap initialized with 3 account instances
+2018-01-03 09:44:05 TRACE - setter setDao() invoked
+2018-01-03 09:44:05 DEBUG - injecting dao
+2018-01-03 09:44:05 INFO - service instance is           
+2018-01-03 09:44:05 DEBUG - service instance created
+2018-01-03 09:44:05 INFO - transfer the amount Rs.5000 from Acc1001 to Acc1002
+2018-01-03 09:44:05 TRACE - transferfund() invoked in service
+2018-01-03 09:44:05 TRACE - getAccount() method invoked
+2018-01-03 09:44:05 DEBUG - checking the eid against map key 
+2018-01-03 09:44:05 INFO - account ID 1001 found
+2018-01-03 09:44:05 DEBUG - From account retrieved
+2018-01-03 09:44:05 TRACE - getAccount() method invoked
+2018-01-03 09:44:05 DEBUG - checking the eid against map key 
+2018-01-03 09:44:05 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:24)
+2018-01-03 09:44:05 INFO - transfer the amount Rs.500 from Acc1003 to Acc1002
+2018-01-03 09:44:05 TRACE - transferfund() invoked in service
+2018-01-03 09:44:05 TRACE - getAccount() method invoked
+2018-01-03 09:44:05 DEBUG - checking the eid against map key 
+2018-01-03 09:44:05 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:32)
+2018-01-03 09:44:05 INFO - transfer the amount Rs.500 from Acc2003 to Acc1002
+2018-01-03 09:44:05 TRACE - transferfund() invoked in service
+2018-01-03 09:44:05 TRACE - getAccount() method invoked
+2018-01-03 09:44:05 DEBUG - checking the eid against map key 
+2018-01-03 09:44:05 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:40)
+2018-01-03 09:45:33 TRACE - main thread starts
+2018-01-03 09:45:33 TRACE - service constructor invoked
+2018-01-03 09:45:33 TRACE - static block called in dao
+2018-01-03 09:45:33 DEBUG - HashMap initialized with 3 account instances
+2018-01-03 09:45:33 TRACE - setter setDao() invoked
+2018-01-03 09:45:33 DEBUG - injecting dao
+2018-01-03 09:45:33 INFO - service instance is           
+2018-01-03 09:45:33 DEBUG - service instance created
+2018-01-03 09:45:33 INFO - transfer the amount Rs.5000 from Acc1001 to Acc1002
+2018-01-03 09:45:33 TRACE - transferfund() invoked in service
+2018-01-03 09:45:33 TRACE - getAccount() method invoked
+2018-01-03 09:45:33 DEBUG - checking the eid against map key 
+2018-01-03 09:45:33 INFO - account ID 1001 found
+2018-01-03 09:45:33 DEBUG - From account retrieved
+2018-01-03 09:45:33 TRACE - getAccount() method invoked
+2018-01-03 09:45:33 DEBUG - checking the eid against map key 
+2018-01-03 09:45:33 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:24)
+2018-01-03 09:45:33 INFO - transfer the amount Rs.500 from Acc1003 to Acc1002
+2018-01-03 09:45:33 TRACE - transferfund() invoked in service
+2018-01-03 09:45:33 TRACE - getAccount() method invoked
+2018-01-03 09:45:33 DEBUG - checking the eid against map key 
+2018-01-03 09:45:33 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:32)
+2018-01-03 09:45:33 INFO - transfer the amount Rs.500 from Acc2003 to Acc1002
+2018-01-03 09:45:33 TRACE - transferfund() invoked in service
+2018-01-03 09:45:33 TRACE - getAccount() method invoked
+2018-01-03 09:45:33 DEBUG - checking the eid against map key 
+2018-01-03 09:45:33 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:40)
+2018-01-03 09:46:15 TRACE - main thread starts
+2018-01-03 09:46:15 TRACE - service constructor invoked
+2018-01-03 09:46:15 TRACE - static block called in dao
+2018-01-03 09:46:15 DEBUG - HashMap initialized with 3 account instances
+2018-01-03 09:46:15 TRACE - setter setDao() invoked
+2018-01-03 09:46:15 DEBUG - injecting dao
+2018-01-03 09:46:15 INFO - service instance is           
+2018-01-03 09:46:15 DEBUG - service instance created
+2018-01-03 09:46:15 INFO - transfer the amount Rs.5000 from Acc1001 to Acc1002
+2018-01-03 09:46:15 TRACE - transferfund() invoked in service
+2018-01-03 09:46:15 TRACE - getAccount() method invoked
+2018-01-03 09:46:15 DEBUG - checking the eid against map key 
+2018-01-03 09:46:15 INFO - account ID 1001 found
+2018-01-03 09:46:15 DEBUG - From account retrieved
+2018-01-03 09:46:15 TRACE - getAccount() method invoked
+2018-01-03 09:46:15 DEBUG - checking the eid against map key 
+2018-01-03 09:46:15 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:24)
+2018-01-03 09:46:15 INFO - transfer the amount Rs.500 from Acc1003 to Acc1002
+2018-01-03 09:46:15 TRACE - transferfund() invoked in service
+2018-01-03 09:46:15 TRACE - getAccount() method invoked
+2018-01-03 09:46:15 DEBUG - checking the eid against map key 
+2018-01-03 09:46:15 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:32)
+2018-01-03 09:46:15 INFO - transfer the amount Rs.500 from Acc2003 to Acc1002
+2018-01-03 09:46:15 TRACE - transferfund() invoked in service
+2018-01-03 09:46:15 TRACE - getAccount() method invoked
+2018-01-03 09:46:15 DEBUG - checking the eid against map key 
+2018-01-03 09:46:15 ERROR - No ID Found
+com.sapient.exceptions.IdException: No ID Found
+	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:33)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:35)
+	at com.sapient.client.TransferClient.main(TransferClient.java:40)

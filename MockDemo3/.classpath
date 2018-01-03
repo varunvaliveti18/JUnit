@@ -9,6 +9,7 @@
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-jupiter-api-5.0.0-M5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-jupiter-engine-5.0.0-M5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-jupiter-migration-5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-jupiter-params-5.0.0-M5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-platform-commons-1.0.0-M5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-platform-engine-1.0.0-M5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-platform-launcher-1.0.0-M5.jar"/>
@@ -17,7 +18,7 @@
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-platform-surefire-provider-1.0.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-vintage-engine-4.12.0-M5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/mockito-extension-1.0.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/opentest4j-1.0.0-M2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/vvali2/Desktop/junit5/junit-jupiter-params-5.0.0-M5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
